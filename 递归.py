@@ -51,7 +51,3 @@ from functools import reduce
 print(reduce(lambda x,y: x+y, number))
 
 print(sum(number))
-
-print("def over")
-print("hello zhaoxd")
-print("haha")
