@@ -47,6 +47,7 @@ print([x for x in seq if x.isalnum()])
 print(list(filter(lambda x: x.isalnum(),seq)))
 
 number = [1,2,3,4]
+
 from functools import reduce
 print(reduce(lambda x,y: x+y, number))
 
