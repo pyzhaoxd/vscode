@@ -51,6 +51,3 @@ from functools import reduce
 print(reduce(lambda x,y: x+y, number))
 
 print(sum(number))
-
-
-print("1234")
