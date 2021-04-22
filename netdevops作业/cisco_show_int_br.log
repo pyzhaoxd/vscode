@@ -1,0 +1,22 @@
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.0.250   YES manual up                    up
+FastEthernet0/1            unassigned      YES unset  up                    down
+FastEthernet0/2            unassigned      YES unset  up                    down
+FastEthernet0/3            unassigned      YES unset  up                    down
+FastEthernet0/4            unassigned      YES unset  up                    down
+FastEthernet0/5            unassigned      YES unset  up                    down
+FastEthernet0/6            unassigned      YES unset  up                    down
+FastEthernet0/7            unassigned      YES unset  up                    down
+FastEthernet0/8            unassigned      YES unset  up                    down
+FastEthernet0/9            unassigned      YES unset  up                    down
+FastEthernet0/10           unassigned      YES unset  up                    down
+FastEthernet0/11           unassigned      YES unset  up                    down
+FastEthernet0/12           unassigned      YES unset  up                    down
+FastEthernet0/13           unassigned      YES unset  up                    down
+FastEthernet0/14           unassigned      YES unset  up                    down
+FastEthernet0/15           unassigned      YES unset  up                    down
+Ethernet1/0                unassigned      YES NVRAM  administratively down down
+Ethernet1/1                unassigned      YES NVRAM  administratively down down
+Ethernet1/2                unassigned      YES NVRAM  administratively down down
+Ethernet1/3                unassigned      YES NVRAM  administratively down down
+Vlan1                      unassigned      YES NVRAM  up                    down
