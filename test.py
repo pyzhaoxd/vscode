@@ -1,9 +1,7 @@
 print("hello,zhaoxd")
 
 import os,sys
-print(sys.path)
-
-import 
+print(sys.path) 
 
 
 
