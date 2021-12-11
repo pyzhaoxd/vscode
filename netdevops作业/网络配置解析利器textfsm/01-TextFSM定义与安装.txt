@@ -1,0 +1,132 @@
+在复杂得匹配情况下,通过正则表达时非常麻烦或者无法满足得,需要用到textfsm,它能使用自定义得变量和规则设计出一个模块，然后用该模板来处理内容，将这些无规律得文本内容
+按照自己打造得模板将他们整合成想要得有序得数据格式，如果通过textfsm将数据转发为JSON [{"intf":"GigabitEthernet0/0,"status":"up"}] 那么就可以通过for语句遍历列表中得每个元素，并配合if语句,将端口状态为up(status对于得值打印出来)
+
+TextFSM 安装 
+方法一：pip3 install textfsm
+方法二: git clone https://github.com/google/textfsm.git 后进入textfsm文件夹，找到里面得setup.py,然后输入 pop3 setup.py install  
+
+
+
+
+
+
+Test: 他需要有文本输入，这个文本是网络的半结构化配置数据，半结构化简单理解就是有规律的文本，实际上网络的配置数据也是通过一定的程序有规律的print出来的
+FSM:有限状态机，实际上是一套文本描述的规则模板，告诉底层代码，通过这些描述语言借助底层程序半结构化数据解析为结构化数据
+
+TextFSM 它是驱动这个有限状态自动机解析的元数据，它有两部分组成，Value rule
+
+TextFSM解析出来的都是列表，它解析的是一条条的记录Record,在Template的最后一行就是把输出解析出来后写入一条记录
+ParseText函数解析出来的是list，每个ist值是按value中定义的字段解析出来的。
+ParseTextToDict解析出来的是dict的列表
+
+textfsm模板定义格式
+
+value options  字段名称  正则表达式  字段名称后面的正则表达式必须用（）括起来，不然会报错，在写正则表达式前面加一个r,转义比较方便。
+
+options:
+Filldown：如果本条记录这个值未被识别，用前一个值来填充本条记录这个字段的值
+key 每条记录的这个字段需要全局唯一
+Required 这条记录的这个字段必须被识别出来才有效记录
+List 这个字段是列表值（比如allow vlan portchannel member）
+Fillup Filldown的逆操作
+
+====================================TextFSM模板样式=========首字母大写=============================
+Value Version (\S+)
+Value Uptime (.*)
+Value ConfigRegister (\w+)
+Value ResetReason (.*)
+
+Start
+# 我们尽量让rule是按实际顺序去编排 textfsm会对文本的每行都去匹配每个rule 
+  ^Cisco IOS .*Version ${Version},
+  ^.*uptime is ${Uptime}
+  ^Last reset from ${ResetReason}
+# 以上只做识别，我们在对应的地方record record是record action 大家最常用的一个 一般放在最后一个
+  ^Configuration register is ${ConfigRegister} -> Record
+
+State的定义核心是rule,定义号value之后需要定义状态，中间与value必须有一个空行 ^表示开始 -> 左边必须有空格
+
+
+
+重点#有限状态机
+TextFSM有两个保留的State，一个必须显示定义的State，一个是隐式定义可以复写的EOF
+Start定义： Value定义完空一行，顶头是state的name,state内含一系列rule,每行一个rule,用^表示开始
+必须要以Start开始，如果没有Start会无法继续下去
+statename
+  ^rule
+  ^rule
+
+EOF:当输入文本读取到EOF的时候，FSM进入EOF状态，这是一个隐式的FSM状态，默认最终EOF会执行一次记录后退出
+读取到EOF将当前所解析的Record进行一次记录，然后退出，可以按照实际情况取进行EOF状态动作，覆盖掉这个隐式的EOF Start  ,当遇到EOF的意思就是解析退出，同时不会将最后一条解析记录追加到已解析的列表里
+EOF
+ ^.* -> Record
+
+ 例子：
+ Value Required intf_name (loopback\d+|Vlan\d+|Ethernet\d+/\d+)
+ Value status(up|down)
+
+ Start
+   ^${intf_name}\s+is up -> Record
+   ^${intf_name}\s+is down -> EOF
+
+如果文本中Eth1/1-4是up的，Eth1/5是down的，EOF Start默认是记录的，所以最后的结果是1-5端口会被匹配记录
+
+例子二：
+ Value Required intf_name (loopback\d+|Vlan\d+|Ethernet\d+/\d+)
+ Value status(up|down)
+
+ Start
+   ^${intf_name}\s+is up -> Record
+   ^${intf_name}\s+is down -> EOF
+EOF
+如果文本中Eth1/1-4是up的，Eth1/5是down的，EOF Start默认是记录的，所以最后的结果是只有1-4端口会被匹配记录
+
+如果文本中Eth1/4是up的，Eth1/5是down的，EOF Start默认是记录的，所以最后的结果是1-5端口会被匹配记录
+
+
+rule的active 分为三类 ^rule -> Line Active -> Record Active - > New State Transition 默认不写为Next.NoRecord
+    Line Actives
+        Next (默认的，如果rule后面没有Line Active的话，他会结束当前行文本，读取下一行文本，并在state中从头开始早起去每个rule尝试匹配)
+        Continue （他会保留当前行文本，然后不是从state的第一个rule开始匹配，继续匹配下面的rules，用处很多，比如在一行中拆开多段，分而治之） 一般是用Continue.Record结合使用
+    Record Active
+        NoRecord(默认的record action不做任何操作)
+        Record（将当前所有提取的字段，打包成一个字典追加到返回值的列表中）
+        Clear（清理Vaule中定义的非filldown的字段值）
+        Clearall（清理所有字段值）
+    New State Transition
+        Continue与状态转发互斥，为了防止死循环
+    Record：表示识别到就记录，一般来说是针对识别字段的排序最后的那个写的，放到最后（推荐） 尽量保证定义的value和rule顺序是一致的
+
+
+#状态转移的例子
+Value VSI_NAME (\S+)
+Value List ACs (BAGG[\s\S]+)
+Value List Tunnels (Tunnel\d+[\s\S]+)
+
+
+
+Start
+  # ^VSI Name:\s${VSI_NAME} -> Management
+  ^VSI Name -> Ethernet
+  ^VSI Name:\s+${VSI_NAME} -> Lookback
+  ^\s+Tunnels: -> Vlan
+  
+
+Management
+  ^\s+${Tunnels} -> Record
+  ^\s+ACs: -> Start
+  ^$$ -> Start
+
+Ethernet
+  ^\s+${ACs} --Record
+  ^$$ -> Start
+
+
+Lookback
+  ^\s+AC\s+Link ID\s+ 
+  ^\s+$(AC_NAME)\s+$(AC_LINK_ID)\s+$(AC_STATE)\s+$(AC_TYPE) -> Record
+  ^\s+\S+\s\S+\s+\d+\s+\S+\s+(Manual) ->Start
+
+
+Vlan
+  ^\s+\S+\s\S+\s+\d+\s+\S+\s+(Manual) -> Record

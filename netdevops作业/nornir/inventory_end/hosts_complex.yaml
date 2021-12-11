@@ -1,0 +1,75 @@
+---
+dev01.leaf:
+  hostname: 192.168.137.201
+  username: netdevops
+  password: admin123!
+  port: 22
+  platform: ios
+  groups:
+    - bj_leaf
+    - netdevops
+    - ios
+  data:
+    role: leaf
+    tags:
+      - test
+      - netdevops
+      - ios
+    cmds:
+      - show version
+  connection_options:
+      extras:
+        conn_timeout: 60
+
+dev02.leaf:
+  hostname: 192.168.137.202
+  username: netdevops
+  password: admin123!
+  port: 22
+  platform: ios
+  groups:
+    - bj_leaf
+  data:
+    role: leaf
+    tags:
+      - test
+      - netdevops
+      - ios
+    cmds:
+      - show version
+  connection_options:
+      extras:
+        conn_timeout: 60
+
+dev03.spine:
+  hostname: sbx-nxos-mgmt.cisco.com
+  username: admin
+  password: Admin_1234!
+  port: 8181
+  platform: cisco_nxos
+  groups:
+    - netdevops
+    - nxos
+  data:
+    role: spine
+    info:
+      series: nexus 9000
+      model: nexus mds 9148
+    nonsense_dict:
+      a: 1
+      b_dict:
+        nums:
+          - 1
+          - 2
+          - 3
+    tags:
+      - nxos
+      - core
+      - sw
+      - production
+    cmds:
+      - show version
+  connection_options:
+    netmiko:
+      extras:
+        conn_timeout: 60

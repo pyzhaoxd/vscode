@@ -1,0 +1,6 @@
+---
+username: netdevops
+password: admin123!
+port: 22
+data:
+  test_var: just 4 test

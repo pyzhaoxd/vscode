@@ -1,0 +1,49 @@
+---
+netdevops01:
+  hostname: 192.168.137.201
+  groups:
+    - ios
+    - ios_fault
+  data:
+    show_version_cmd: show version
+
+netdevops02:
+  hostname: 192.168.137.202
+  groups:
+    - ios_fault
+    - ios
+
+  data:
+    show_version_cmd: show version
+
+devnet01:
+  hostname: sbx-nxos-mgmt.cisco.com
+  username: admin
+  password: Admin_1234!
+  port: 8181
+  platform: cisco_nxos
+  groups:
+    - nxos
+  data:
+    role: spine
+    info:
+      series: nexus 9000
+      model: nexus mds 9148
+    nonsense_dict:
+      a: 1
+      b_dict:
+        nums:
+          - 1
+          - 2
+          - 3
+    tags:
+      - nxos
+      - core
+      - sw
+      - production
+    cmds:
+      - show version
+  connection_options:
+    netmiko:
+      extras:
+        conn_timeout: 60

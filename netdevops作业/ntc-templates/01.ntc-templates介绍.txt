@@ -1,0 +1,19 @@
+#用TestFSM制作的模板很好，但是缺点也很明显，每个TextFSM模板只能对应一条show或者display命令，解决一个问题，目前市场设备上百种如果都靠自己写一个基本累死
+#已经有人帮我们打造号了轮子 就是ntc-templates
+
+
+#ntc-templates 由 network to code团队用textfsm花费了无数心血开发出来的一套模块集合，支持绝大多数主流厂商，将这些厂商的show 和display 得到的命令回显内容整合成了JSON XML YAML等格式，
+
+
+#通过netmiko模块来调用TextFSM和ntc-tempalte 
+
+#1.安装netmiko
+#2.在根目录或者特定目录创建一个ntc-template的文件夹
+#3.进入文件夹 
+#4.下载ntc文件 git clone https://github.com/networktocode/ntc-templates.git
+#5.再次进入ntc-templates/templates  就可以看所全部的模块
+6.因为在Netmiko里使用变量NET_TEXTFSM 来调用模板机的，所以需要用export来设置相应的环境变量，将ntc-templates模板集的完整路径/ntc-tempalte/ntc-templates/tempaltes赋值给变量NET_TEXTFSM 然后用echo命令检查
+export NET_TEXTFSM ='/ntc-tempalte/ntc-templates/tempaltes'
+echo $NET_TEXTFSM
+ 
+以上只是临时，当系统重启就没有作用了，永久保存写入vim .bashrc 

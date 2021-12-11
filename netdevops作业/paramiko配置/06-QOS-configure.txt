@@ -1,0 +1,4 @@
+configure terminal
+mls qos queue-set optput 1 buffers 15 25 40 20
+end
+wr mem

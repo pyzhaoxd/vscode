@@ -1,0 +1,18 @@
+#创建TextFSM模板，组成部分定义value rule active
+#使用Vaule语句来定义变量，这里分别定义时VLAN_ID NAME,STATUS,每个变量后面对应得正则标识模式，注意这些模式必须写在括号中
+Value VLAN_ID (\d+) 
+Value NAME (\w+)
+Value STATUS (\w+)
+
+
+#以上定义变量后，我们使用Start语句来定义匹配规则，匹配规则由正则表达式的模式及变量组成
+#注意Start语句后面必须以正则表达式 ^ 开头, ^是正则表达式的一种特殊字符，用于匹配输入字符串开始的位置
+#注意后面的$不是正则表达式里面的$,它的作用不是用来匹配输入字符串的结尾位置，而是用来调用我们之前设置好的 VLAN_ID并匹配该变量
+#注意在TextFSM中调用变量时可以用大括号{} 写成${VLAN_ID},也可以不用并写出$VLAN_ID.官方推荐使用{} 
+#VLAN_ID 对应的正则表达式是\d+ \s+用来匹配空白字符一个或者多个，以上正则都为贪婪匹配模式，其他同理。
+#-> Record 来结束TextFSM匹配规则，我们在对应的地方record record是record action 大家最常用的一个 一般放在最后一个
+
+Start
+  ^${VLAN_ID}\s+${NAME}\s+${STATUS}\s+ -> Record
+
+

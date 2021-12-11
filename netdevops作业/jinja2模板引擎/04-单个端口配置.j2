@@ -1,0 +1,8 @@
+{# 这是单个端口的配置模板，修改端口描述 #}
+interface {{ interface.name }}
+    description {{ interface.description }}
+{% if interface.shutdown  %}
+    shutdown
+{% else %}
+    no shutdown
+{% endif %}

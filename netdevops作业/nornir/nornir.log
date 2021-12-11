@@ -1,0 +1,86 @@
+2021-04-26 21:35:57,425 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces']} on 1 hosts
+2021-04-26 21:35:57,433 - nornir.core.task -    ERROR -      start() - Host 'nxos01': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir_napalm\plugins\tasks\napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir\core\inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir\core\inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir_napalm\plugins\connections\__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\napalm\base\__init__.py", line 97, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "cisco_nxos". Is the library installed?
+
+2021-04-26 21:36:32,413 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts', 'interfaces']} on 1 hosts
+2021-04-26 21:37:07,389 - nornir.core.task -    ERROR -      start() - Host 'nxos01': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir_napalm\plugins\tasks\napalm_get.py", line 44, in napalm_get
+    result[g] = method(**options)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\napalm\nxos_ssh\nxos_ssh.py", line 705, in get_interfaces
+    output = self._send_command(command)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\napalm\nxos_ssh\nxos_ssh.py", line 458, in _send_command
+    return self.device.send_command(command, cmd_verify=cmd_verify)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\netmiko\utilities.py", line 500, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\netmiko\base_connection.py", line 1535, in send_command
+    raise IOError(
+OSError: Search pattern never detected in send_command: sbx\-n9kv\-ao\#
+
+2021-04-26 21:37:26,984 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 1 hosts
+2021-04-26 21:37:53,202 - nornir.core.task -    ERROR -      start() - Host 'nxos01': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir_napalm\plugins\tasks\napalm_get.py", line 44, in napalm_get
+    result[g] = method(**options)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\napalm\nxos_ssh\nxos_ssh.py", line 705, in get_interfaces
+    output = self._send_command(command)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\napalm\nxos_ssh\nxos_ssh.py", line 458, in _send_command
+    return self.device.send_command(command, cmd_verify=cmd_verify)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\netmiko\utilities.py", line 500, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\netmiko\base_connection.py", line 1535, in send_command
+    raise IOError(
+OSError: Search pattern never detected in send_command: sbx\-n9kv\-ao\#
+
+2021-04-26 21:38:44,421 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 1 hosts
+2021-04-26 21:39:11,341 - nornir.core.task -    ERROR -      start() - Host 'nxos01': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\nornir_napalm\plugins\tasks\napalm_get.py", line 44, in napalm_get
+    result[g] = method(**options)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\napalm\nxos_ssh\nxos_ssh.py", line 705, in get_interfaces
+    output = self._send_command(command)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\napalm\nxos_ssh\nxos_ssh.py", line 458, in _send_command
+    return self.device.send_command(command, cmd_verify=cmd_verify)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\netmiko\utilities.py", line 500, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\ProgramData\Miniconda3\lib\site-packages\netmiko\base_connection.py", line 1535, in send_command
+    raise IOError(
+OSError: Search pattern never detected in send_command: sbx\-n9kv\-ao\#
+
+2021-05-21 12:44:58,607 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 1 hosts
+2021-05-21 12:45:25,640 - nornir.core.task -    ERROR -      start() - Host 'nxos01': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python_envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\python_envs\nornir_env\lib\site-packages\nornir_napalm\plugins\tasks\napalm_get.py", line 44, in napalm_get
+    result[g] = method(**options)
+  File "C:\python_envs\nornir_env\lib\site-packages\napalm\nxos_ssh\nxos_ssh.py", line 705, in get_interfaces
+    output = self._send_command(command)
+  File "C:\python_envs\nornir_env\lib\site-packages\napalm\nxos_ssh\nxos_ssh.py", line 458, in _send_command
+    return self.device.send_command(command, cmd_verify=cmd_verify)
+  File "C:\python_envs\nornir_env\lib\site-packages\netmiko\utilities.py", line 500, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python_envs\nornir_env\lib\site-packages\netmiko\base_connection.py", line 1535, in send_command
+    raise IOError(
+OSError: Search pattern never detected in send_command: sbx\-ao\#
+
+2021-05-21 12:45:58,602 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['facts']} on 1 hosts

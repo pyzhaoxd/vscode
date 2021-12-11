@@ -1,0 +1,33 @@
+---
+netdevops01:
+  hostname: 192.168.137.201
+  username: netdevops
+  password: admin123!
+  port: 22
+  platform: ios
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: admin1234!
+          transport: telnet
+  groups:
+    - ios
+  data:
+    show_version_cmd: show version
+
+netdevops02:
+  hostname: 192.168.137.202
+  username: netdevops
+  password: admin123!
+  port: 22
+  platform: ios
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: admin1234!
+  groups:
+    - ios
+  data:
+    show_version_cmd: show version

@@ -1,0 +1,2872 @@
+{
+    "versanms.ApplianceStatusResult": {
+        "appliances": [
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 4,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "90G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "77G",
+                    "freeMemory": "2.94GiB",
+                    "hardWareSerialNo": "VMware-42 24 a1 42 9f 7e 2e f3-c1 45 67 fa a6 ea 0a a8",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "7.59GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-121828-dcb71e2-21.2.1-B",
+                    "serialNo": "VMware-42 24 a1 42 9f 7e 2e f3-c1 45 67 fa a6 ea 0a a8",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "Controller-RR-01",
+                    "applianceUuid": "dc177884-c5fb-46ad-bddb-cfef3ecfedc7",
+                    "latitude": "39.9042",
+                    "locationId": "beijing,china",
+                    "longitude": "116.407396",
+                    "type": "controller"
+                },
+                "applianceTags": [
+                    "BJ"
+                ],
+                "branch-maintenance-mode": false,
+                "branchId": "21",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-04-09 07:29:46.616",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.1.1.5",
+                "last-updated-time": "2021/07/23 11:45:58",
+                "location": "beijing,china",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "Controller-RR-01",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 29,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5009",
+                    "Customer5007",
+                    "Customer5008",
+                    "Customer5016",
+                    "Customer5017",
+                    "Customer5014",
+                    "Customer5015",
+                    "Customer5012",
+                    "Customer5013",
+                    "Customer5010",
+                    "Customer5011",
+                    "Customer5018",
+                    "Customer5019",
+                    "Customer5020",
+                    "Customer5005",
+                    "Customer5006",
+                    "Customer5003",
+                    "Customer5004",
+                    "Customer5001",
+                    "Customer5023",
+                    "Customer5002",
+                    "Customer5024",
+                    "Customer5021",
+                    "Customer5022"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "stateful-firewall",
+                    "sdwan",
+                    "adc"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA dcb71e2 20210318 NORMAL",
+                "startTime": "Wed Jun  9 15:34:07 2021",
+                "sync-status": "IN_SYNC",
+                "type": "controller",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "dc177884-c5fb-46ad-bddb-cfef3ecfedc7",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 4,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "90G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "77G",
+                    "freeMemory": "2.90GiB",
+                    "hardWareSerialNo": "VMware-42 24 1a 53 d7 b4 95 05-b0 14 d1 fc a2 b3 3f 06",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "7.59GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-121828-dcb71e2-21.2.1-B",
+                    "serialNo": "VMware-42 24 1a 53 d7 b4 95 05-b0 14 d1 fc a2 b3 3f 06",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "Controller-RR-02",
+                    "applianceUuid": "b6128166-3f3d-43f4-ac2a-37901088f8c5",
+                    "latitude": "31.230416",
+                    "locationId": "shanghai,china",
+                    "longitude": "121.473701",
+                    "type": "controller"
+                },
+                "applianceTags": [
+                    "SH"
+                ],
+                "branch-maintenance-mode": false,
+                "branchId": "22",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-04-09 07:38:19.991",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.2.1.5",
+                "last-updated-time": "2021/07/23 11:45:51",
+                "location": "shanghai,china",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "Controller-RR-02",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 31,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5009",
+                    "Customer5007",
+                    "Customer5008",
+                    "Customer5016",
+                    "Customer5017",
+                    "Customer5014",
+                    "Customer5015",
+                    "Customer5012",
+                    "Customer5013",
+                    "Customer5010",
+                    "Customer5011",
+                    "Customer5018",
+                    "Customer5019",
+                    "Customer5020",
+                    "Customer5005",
+                    "Customer5006",
+                    "Customer5003",
+                    "Customer5004",
+                    "Customer5001",
+                    "Customer5023",
+                    "Customer5002",
+                    "Customer5024",
+                    "Customer5021",
+                    "Customer5022"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "stateful-firewall",
+                    "sdwan",
+                    "adc"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA dcb71e2 20210318 NORMAL",
+                "startTime": "Thu Jun 10 15:29:25 2021",
+                "sync-status": "IN_SYNC",
+                "type": "controller",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "b6128166-3f3d-43f4-ac2a-37901088f8c5",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 4,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "90G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "77G",
+                    "freeMemory": "2.62GiB",
+                    "hardWareSerialNo": "VMware-42 24 d1 45 67 0f 27 b7-55 02 41 6c 97 b8 9b 4f",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "7.59GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-121828-dcb71e2-21.2.1-B",
+                    "serialNo": "VMware-42 24 d1 45 67 0f 27 b7-55 02 41 6c 97 b8 9b 4f",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "Controller01",
+                    "applianceUuid": "2c7b1b09-5a3d-4e00-a9ee-92b21485fd9f",
+                    "latitude": "39.9042",
+                    "locationId": "beijing,china",
+                    "longitude": "116.407396",
+                    "type": "controller"
+                },
+                "applianceTags": [
+                    "BJ"
+                ],
+                "branch-maintenance-mode": false,
+                "branchId": "1",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-04-09 07:59:30.97",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.1.1.4",
+                "last-updated-time": "2021-07-23 11:39:58.0",
+                "location": "beijing,china",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "Controller01",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 38,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5009",
+                    "Customer5007",
+                    "Customer5008",
+                    "Customer5016",
+                    "Customer5017",
+                    "Customer5014",
+                    "Customer5015",
+                    "Customer5012",
+                    "Customer5013",
+                    "Customer5010",
+                    "Customer5011",
+                    "Customer5018",
+                    "Customer5019",
+                    "Customer5020",
+                    "Customer5005",
+                    "Customer5006",
+                    "Customer5003",
+                    "Customer5004",
+                    "Customer5001",
+                    "Customer5023",
+                    "Customer5002",
+                    "Customer5024",
+                    "Customer5021",
+                    "Customer5022"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "stateful-firewall",
+                    "sdwan",
+                    "adc"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA dcb71e2 20210318 NORMAL",
+                "startTime": "Thu Jun 10 08:40:57 2021",
+                "sync-status": "IN_SYNC",
+                "type": "controller",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "2c7b1b09-5a3d-4e00-a9ee-92b21485fd9f",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 4,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "90G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "77G",
+                    "freeMemory": "2.79GiB",
+                    "hardWareSerialNo": "VMware-42 24 6a da ac 5c 82 44-ec 3a a3 a1 a8 4c 99 43",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "7.59GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-121828-dcb71e2-21.2.1-B",
+                    "serialNo": "VMware-42 24 6a da ac 5c 82 44-ec 3a a3 a1 a8 4c 99 43",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "Controller02",
+                    "applianceUuid": "5a74bf17-e261-4b5a-a050-27006d630aa1",
+                    "latitude": "31.230416",
+                    "locationId": "shanghai,china",
+                    "longitude": "121.473701",
+                    "type": "controller"
+                },
+                "applianceTags": [
+                    "SH"
+                ],
+                "branch-maintenance-mode": false,
+                "branchId": "2",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-04-09 08:01:11.442",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.2.1.4",
+                "last-updated-time": "2021/07/23 11:45:53",
+                "location": "shanghai,china",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "Controller02",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 32,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5009",
+                    "Customer5007",
+                    "Customer5008",
+                    "Customer5016",
+                    "Customer5017",
+                    "Customer5014",
+                    "Customer5015",
+                    "Customer5012",
+                    "Customer5013",
+                    "Customer5010",
+                    "Customer5011",
+                    "Customer5018",
+                    "Customer5019",
+                    "Customer5020",
+                    "Customer5005",
+                    "Customer5006",
+                    "Customer5003",
+                    "Customer5004",
+                    "Customer5001",
+                    "Customer5023",
+                    "Customer5002",
+                    "Customer5024",
+                    "Customer5021",
+                    "Customer5022"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "stateful-firewall",
+                    "sdwan",
+                    "adc"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA dcb71e2 20210318 NORMAL",
+                "startTime": "Wed Jul 14 05:06:43 2021",
+                "sync-status": "IN_SYNC",
+                "type": "controller",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "5a74bf17-e261-4b5a-a050-27006d630aa1",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 4,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "90G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "77G",
+                    "freeMemory": "3.34GiB",
+                    "hardWareSerialNo": "VMware-42 24 1c 34 38 8f 58 76-17 71 d0 21 6f 1e 45 0d",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "7.59GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-121828-dcb71e2-21.2.1-B",
+                    "serialNo": "VMware-42 24 1c 34 38 8f 58 76-17 71 d0 21 6f 1e 45 0d",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "Controller03",
+                    "applianceUuid": "43ebe843-1e7c-4e69-a526-5746fbea5ef9",
+                    "latitude": "23.12911",
+                    "locationId": "guangzhou,china",
+                    "longitude": "113.264385",
+                    "type": "controller"
+                },
+                "applianceTags": [
+                    "HK"
+                ],
+                "branch-maintenance-mode": false,
+                "branchId": "3",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-04-09 08:05:26.383",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.3.1.4",
+                "last-updated-time": "2021/07/23 11:45:54",
+                "location": "guangzhou,china",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "Controller03",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 24,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5018",
+                    "Customer5019",
+                    "Customer5005",
+                    "Customer5016",
+                    "Customer5017",
+                    "Customer5003",
+                    "Customer5004",
+                    "Customer5015",
+                    "Customer5001",
+                    "Customer5012",
+                    "Customer5023",
+                    "Customer5010",
+                    "Customer5021"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "stateful-firewall",
+                    "sdwan",
+                    "adc"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA dcb71e2 20210318 NORMAL",
+                "startTime": "Wed Jun 16 11:19:01 2021",
+                "sync-status": "IN_SYNC",
+                "type": "controller",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "43ebe843-1e7c-4e69-a526-5746fbea5ef9",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 4,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "80G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "71G",
+                    "freeMemory": "3.89GiB",
+                    "hardWareSerialNo": "VMware-42 35 e5 f0 f9 8e 51 bf-8c 08 83 9b db ac 97 18",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "7.80GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-050050-5bed617-21.2.1",
+                    "serialNo": "VMware-42 35 e5 f0 f9 8e 51 bf-8c 08 83 9b db ac 97 18",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "Controller04",
+                    "applianceUuid": "beb5f547-f566-4abe-981b-04611b81bf5c",
+                    "latitude": "50.110922",
+                    "locationId": "Frankfurt,Germany",
+                    "longitude": "8.682127",
+                    "type": "controller"
+                },
+                "applianceTags": [
+                    "FF"
+                ],
+                "branch-maintenance-mode": false,
+                "branchId": "4",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-05-31 02:37:48.319",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.4.1.4",
+                "last-updated-time": "2021/07/23 11:45:20",
+                "location": "Frankfurt,Germany",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "Controller04",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 17,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5018",
+                    "Customer5019",
+                    "Customer5005",
+                    "Customer5016",
+                    "Customer5017",
+                    "Customer5003",
+                    "Customer5004",
+                    "Customer5015",
+                    "Customer5001",
+                    "Customer5012",
+                    "Customer5023",
+                    "Customer5010",
+                    "Customer5021"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "stateful-firewall",
+                    "sdwan",
+                    "adc"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA 5bed617 20210318 NORMAL",
+                "startTime": "Wed Jun 24 15:40:16 2020",
+                "sync-status": "IN_SYNC",
+                "type": "controller",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "beb5f547-f566-4abe-981b-04611b81bf5c",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 4,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Atom(TM) CPU C2558 @ 2.40GHz",
+                    "diskSize": "57G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "46G",
+                    "freeMemory": "4.31GiB",
+                    "hardWareSerialNo": "1101191258",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 6,
+                    "lpm": false,
+                    "manufacturer": "Versa Networks, Inc.",
+                    "memory": "7.79GiB",
+                    "model": "80500-0095-G62",
+                    "packageName": "versa-flexvnf-20210318-050050-5bed617-21.2.1-wsm",
+                    "serialNo": "CTG-DeltaSport-FF-CPE-01",
+                    "sku": "Versa-110",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "20210428",
+                    "updateType": "full"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "CTG-DeltaSport-FF-CPE-01",
+                    "applianceUuid": "9ecb8ddb-d5cf-4aed-9197-4d19f8679d59",
+                    "latitude": "0.0",
+                    "locationId": "FKF, Germany",
+                    "longitude": "0.0",
+                    "type": "branch"
+                },
+                "branch-maintenance-mode": false,
+                "branchId": "120",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-07-10 20:22:44.897",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.0.0.102",
+                "last-updated-time": "2021/07/23 11:45:21",
+                "location": "FKF, Germany",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "CTG-DeltaSport-FF-CPE-01",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 9,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "Customer5015",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "sdwan",
+                    "cgnat"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA 5bed617 20210318 WSM",
+                "startTime": "Sat Jul 10 20:26:40 2021",
+                "sync-status": "IN_SYNC",
+                "type": "branch",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "9ecb8ddb-d5cf-4aed-9197-4d19f8679d59",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 4,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Atom(TM) CPU C2558 @ 2.40GHz",
+                    "diskSize": "57G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "47G",
+                    "freeMemory": "4.36GiB",
+                    "hardWareSerialNo": "1101191200",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 6,
+                    "lpm": false,
+                    "manufacturer": "Versa Networks, Inc.",
+                    "memory": "7.79GiB",
+                    "model": "80500-0095-G62",
+                    "packageName": "versa-flexvnf-20210318-050050-5bed617-21.2.1-wsm",
+                    "serialNo": "CTG-DeltaSport-SH-CPE-01",
+                    "sku": "Versa-110",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "20210428",
+                    "updateType": "full"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "CTG-DeltaSport-SH-CPE-01",
+                    "applianceUuid": "f27b7fed-64e7-4ee9-b3d1-a1553bb08858",
+                    "latitude": "0.0",
+                    "locationId": "SHA, china",
+                    "longitude": "0.0",
+                    "type": "branch"
+                },
+                "branch-maintenance-mode": false,
+                "branchId": "118",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-07-10 20:21:31.514",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.0.0.100",
+                "last-updated-time": "2021-07-23 11:43:06.0",
+                "location": "SHA, china",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "CTG-DeltaSport-SH-CPE-01",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 8,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "Customer5015",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "sdwan",
+                    "cgnat"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA 5bed617 20210318 WSM",
+                "startTime": "Sat Jul 10 20:24:39 2021",
+                "sync-status": "IN_SYNC",
+                "type": "branch",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "f27b7fed-64e7-4ee9-b3d1-a1553bb08858",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 16,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "106G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "97G",
+                    "freeMemory": "20.87GiB",
+                    "hardWareSerialNo": "VMware-42 35 f5 1d 9b c7 c7 9d-56 c9 bc 87 58 a1 47 43",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "31.42GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-050050-5bed617-21.2.1",
+                    "serialNo": "FF-HUB-A-1",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "FF-HUB-A-1",
+                    "applianceUuid": "e7531638-81c0-4274-89bb-0d9d7cd9e2b1",
+                    "latitude": "50.110922",
+                    "locationId": "Frankfurt, Germany",
+                    "longitude": "8.682127",
+                    "type": "hub"
+                },
+                "branch-maintenance-mode": false,
+                "branchId": "5007",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                0,
+                                1,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                0,
+                                1,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                0,
+                                1,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-05-31 03:19:10.942",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.0.0.74",
+                "last-updated-time": "2021-07-23 11:41:49.0",
+                "location": "Frankfurt, Germany",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "FF-HUB-A-1",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 0,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 0,
+                        "memory-load": 0,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5019",
+                    "Customer5017",
+                    "Customer5015",
+                    "Customer5012"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "UNREACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "sdwan",
+                    "cgnat"
+                ],
+                "services-status": "UNKNOWN",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA 5bed617 20210318 NORMAL",
+                "startTime": "Sun Jul 18 00:13:50 2021",
+                "sync-status": "UNKNOWN",
+                "type": "hub",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": true,
+                "uuid": "e7531638-81c0-4274-89bb-0d9d7cd9e2b1",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 16,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "106G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "97G",
+                    "freeMemory": "20.56GiB",
+                    "hardWareSerialNo": "VMware-42 35 bc b5 20 12 a6 cf-5a 29 d3 09 af 06 5c d8",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "31.42GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-050050-5bed617-21.2.1",
+                    "serialNo": "FF-HUB-B-1",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "FF-HUB-B-1",
+                    "applianceUuid": "09b2d3f6-529e-404c-8c87-50ba6d2bac76",
+                    "latitude": "0.0",
+                    "locationId": "Frankfurt, Germany",
+                    "longitude": "0.0",
+                    "type": "hub"
+                },
+                "branch-maintenance-mode": false,
+                "branchId": "5008",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-05-31 03:20:25.327",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.0.0.76",
+                "last-updated-time": "2021/07/23 11:46:18",
+                "location": "Frankfurt, Germany",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "FF-HUB-B-1",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 7,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5019",
+                    "Customer5017",
+                    "Customer5015",
+                    "Customer5012"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "sdwan",
+                    "cgnat"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA 5bed617 20210318 NORMAL",
+                "startTime": "Wed Jun 24 15:40:14 2020",
+                "sync-status": "IN_SYNC",
+                "type": "hub",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "09b2d3f6-529e-404c-8c87-50ba6d2bac76",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 16,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "106G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "97G",
+                    "freeMemory": "20.02GiB",
+                    "hardWareSerialNo": "VMware-42 24 e9 84 a4 77 e2 64-e5 c1 ac 43 4f 5a 56 0b",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "31.42GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-050050-5bed617-21.2.1",
+                    "serialNo": "SH-HUB-A-1",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "SH-HUB-A-1",
+                    "applianceUuid": "6dd36ccd-08f1-49a5-85cd-054877f98cf0",
+                    "latitude": "31.230416",
+                    "locationId": "shanghai, china",
+                    "longitude": "121.473701",
+                    "type": "hub"
+                },
+                "branch-maintenance-mode": false,
+                "branchId": "5003",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-04-24 00:07:34.324",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.0.0.48",
+                "last-updated-time": "2021-07-23 11:41:53.0",
+                "location": "shanghai, china",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "SH-HUB-A-1",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 9,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5007",
+                    "Customer5018",
+                    "Customer5019",
+                    "Customer5014",
+                    "Customer5015",
+                    "Customer5012",
+                    "Customer5002",
+                    "Customer5021"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "sdwan",
+                    "cgnat"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA 5bed617 20210318 NORMAL",
+                "startTime": "Wed Jun 16 06:04:33 2021",
+                "sync-status": "IN_SYNC",
+                "type": "hub",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "6dd36ccd-08f1-49a5-85cd-054877f98cf0",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 16,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz",
+                    "diskSize": "106G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "97G",
+                    "freeMemory": "20.26GiB",
+                    "hardWareSerialNo": "VMware-42 24 1d 15 ae 63 e0 ef-23 b2 f8 72 c0 83 2a 3b",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "31.42GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-050050-5bed617-21.2.1",
+                    "serialNo": "SH-HUB-B-1",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "unknown",
+                    "updateType": "unknown"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "SH-HUB-B-1",
+                    "applianceUuid": "00f2d06b-c726-44ae-b85e-d43bf5cda0ee",
+                    "latitude": "31.230416",
+                    "locationId": "shanghai, china",
+                    "longitude": "121.473701",
+                    "type": "hub"
+                },
+                "branch-maintenance-mode": false,
+                "branchId": "5004",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "connectorType": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-04-23 23:57:34.772",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.0.0.46",
+                "last-updated-time": "2021-07-23 11:42:38.0",
+                "location": "shanghai, china",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "SH-HUB-B-1",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 8,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5007",
+                    "Customer5018",
+                    "Customer5019",
+                    "Customer5014",
+                    "Customer5015",
+                    "Customer5012",
+                    "Customer5002",
+                    "Customer5021"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "sdwan",
+                    "cgnat"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA 5bed617 20210318 NORMAL",
+                "startTime": "Sat May 29 19:37:54 2021",
+                "sync-status": "IN_SYNC",
+                "type": "hub",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "00f2d06b-c726-44ae-b85e-d43bf5cda0ee",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 8,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz",
+                    "diskSize": "92G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "81G",
+                    "freeMemory": "9.85GiB",
+                    "hardWareSerialNo": "VMware-42 34 11 fe 97 f2 e8 84-36 8c 9d c7 34 76 26 fc",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "15.67GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-050050-5bed617-21.2.1",
+                    "serialNo": "ZC-FF-HUB-A-1",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "20210428",
+                    "updateType": "full"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "ZC-FF-HUB-A-1",
+                    "applianceUuid": "0cd28ab1-0e88-4444-ad0c-c42e062114f0",
+                    "latitude": "50.110922",
+                    "locationId": "Frankfurt, Germany",
+                    "longitude": "8.682127",
+                    "type": "hub"
+                },
+                "branch-maintenance-mode": false,
+                "branchId": "161",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-07-20 16:30:10.323",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.0.8.188",
+                "last-updated-time": "2021/07/23 11:45:18",
+                "location": "Frankfurt, Germany",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "ZC-FF-HUB-A-1",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 7,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5004",
+                    "Customer5015"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "sdwan",
+                    "cgnat"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA 5bed617 20210318 NORMAL",
+                "startTime": "Tue Jul 20 01:31:55 2021",
+                "sync-status": "IN_SYNC",
+                "type": "hub",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "0cd28ab1-0e88-4444-ad0c-c42e062114f0",
+                "yang-compatibility-status": "Unavailable"
+            },
+            {
+                "Hardware": {
+                    "cpuCores": 0,
+                    "cpuCount": 8,
+                    "cpuLoad": 2,
+                    "cpuModel": "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz",
+                    "diskSize": "92G",
+                    "fanless": false,
+                    "firmwareVersion": "21.2.1",
+                    "freeDisk": "82G",
+                    "freeMemory": "9.84GiB",
+                    "hardWareSerialNo": "VMware-42 34 f0 bb 8c 4f 4d a8-50 a7 a0 76 49 4d bb d0",
+                    "intelQuickAssistAcceleration": false,
+                    "interfaceCount": 4,
+                    "lpm": false,
+                    "manufacturer": "VMware, Inc.",
+                    "memory": "15.67GiB",
+                    "model": "VMware Virtual Platform",
+                    "packageName": "versa-flexvnf-20210318-050050-5bed617-21.2.1",
+                    "serialNo": "ZC-SH-HUB-A-1",
+                    "sku": "Not Specified",
+                    "ssd": false
+                },
+                "OssPack": {
+                    "osspackVersion": "20210428",
+                    "updateType": "full"
+                },
+                "SPack": {
+                    "apiVersion": "11",
+                    "flavor": "sample",
+                    "releaseDate": "2021-03-12",
+                    "spackVersion": "1806",
+                    "updateType": "full"
+                },
+                "alarmSummary": {
+                    "columnNames": [
+                        "columnName 0"
+                    ],
+                    "monitorType": "Alarms",
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Critical"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Major"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Minor"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Warning"
+                        },
+                        {
+                            "columnValues": [
+                                0
+                            ],
+                            "firstColumnValue": "Indeterminate"
+                        }
+                    ],
+                    "tableId": "Alarms",
+                    "tableName": "Alarms"
+                },
+                "appIdDetails": {
+                    "appIdAvailableBundleVersion": "1.500.2-21",
+                    "appIdInstalledBundleVersion": "1.500.2-21 ",
+                    "appIdInstalledEngineVersion": "5.3.0-27 "
+                },
+                "applianceCapabilities": {
+                    "capabilities": [
+                        "path-state-monitor",
+                        "bw-in-interface-state",
+                        "config-encryption:v3"
+                    ]
+                },
+                "applianceLocation": {
+                    "applianceName": "ZC-SH-HUB-A-1",
+                    "applianceUuid": "120b71e2-8351-48bf-b00f-e9d79e96be59",
+                    "latitude": "31.230416",
+                    "locationId": "shanghai, china",
+                    "longitude": "121.473701",
+                    "type": "hub"
+                },
+                "branch-maintenance-mode": false,
+                "branchId": "151",
+                "branchInMaintenanceMode": false,
+                "connector": "local",
+                "controll-status": "Unavailable",
+                "cpeHealth": {
+                    "columnNames": [
+                        "Category",
+                        "Up",
+                        "Down",
+                        "Disabled"
+                    ],
+                    "rows": [
+                        {
+                            "columnValues": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Physical Ports"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Config Sync Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Reachability Status"
+                        },
+                        {
+                            "columnValues": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "firstColumnValue": "Service Status"
+                        }
+                    ]
+                },
+                "createdAt": "2021-07-19 19:34:46.485",
+                "inter-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "intra-chassis-ha-status": {
+                    "ha-configured": false
+                },
+                "ipAddress": "10.0.8.164",
+                "last-updated-time": "2021-07-23 11:43:25.0",
+                "location": "shanghai, china",
+                "lockDetails": {
+                    "lockType": "NONE",
+                    "user": "zhaoxd"
+                },
+                "name": "ZC-SH-HUB-A-1",
+                "nodes": {
+                    "nodeStatusList": {
+                        "cpu-load": 2,
+                        "host-ip": "NOT-APPLICABLE",
+                        "load-factor": 2,
+                        "memory-load": 7,
+                        "node-type": "VCSN",
+                        "slot-id": 0,
+                        "vm-name": "NOT-APPLICABLE",
+                        "vm-status": "NOT-APPLICABLE"
+                    }
+                },
+                "orgs": [
+                    "Customer5004",
+                    "Customer5015"
+                ],
+                "overall-status": "NOT-APPLICABLE",
+                "ownerOrg": "unilake",
+                "path-status": "Unavailable",
+                "ping-status": "REACHABLE",
+                "refreshCycleCount": 0,
+                "services": [
+                    "sdwan",
+                    "cgnat"
+                ],
+                "services-status": "GOOD",
+                "sngCount": 0,
+                "softwareVersion": "21.2.1-GA 5bed617 20210318 NORMAL",
+                "startTime": "Sun Jul 18 20:12:11 2021",
+                "sync-status": "IN_SYNC",
+                "type": "hub",
+                "ucpe-nodes": {
+                    "ucpeNodeStatusList": []
+                },
+                "unreachable": false,
+                "uuid": "120b71e2-8351-48bf-b00f-e9d79e96be59",
+                "yang-compatibility-status": "Unavailable"
+            }
+        ],
+        "totalCount": 14
+    }
+}

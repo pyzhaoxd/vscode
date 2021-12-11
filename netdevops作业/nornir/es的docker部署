@@ -1,0 +1,43 @@
+、查看
+[root@dev-server ~]# getenforce
+Disabled
+[root@dev-server ~]# /usr/sbin/sestatus -v
+SELinux status:                 disabled
+2、临时关闭
+##设置SELinux 成为permissive模式
+##setenforce 1 设置SELinux 成为enforcing模式
+setenforce 0
+3、永久关闭
+vi /etc/selinux/config
+将SELINUX=enforcing改为SELINUX=disabled
+设置后需要重启才能生效
+
+
+
+mkdir config
+[root@netdevops elasticsearch]# mkdir data
+echo "http.host: 0.0.0.0" >> /opt/elasticsearch/config/elasticsearch.yml
+chmod -R 777 data/
+
+
+-v /opt/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml -v /opt/elasticsearch/data:/usr/share/elasticsearch/data -v /opt/elasticsearch/plugins:/usr/share/elasticsearch/plugins
+
+docker run -itd --name es-db\
+ --restart=always\
+ --net elastic \
+ -p 9200:9200 -p 9300:9300 \
+ -e "discovery.type=single-node" \
+ -v /opt/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml\
+ -v /opt/elasticsearch/data:/usr/share/elasticsearch/data \
+ -v /opt/elasticsearch/plugins:/usr/share/elasticsearch/plugins\
+ docker.elastic.co/elasticsearch/elasticsearch:7.12.1
+
+
+
+docker pull docker.elastic.co/kibana/kibana:7.12.1
+
+docker run -itd --name kibana \
+--restart=always \
+--net elastic -p 5601:5601 \
+-e "ELASTICSEARCH_HOSTS=http://es-db:9200" \
+docker.elastic.co/kibana/kibana:7.12.1

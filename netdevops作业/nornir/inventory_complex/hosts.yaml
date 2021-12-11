@@ -1,0 +1,17 @@
+---
+netdevops01:
+  hostname: 192.168.137.201
+  groups:
+    - ios
+    - ios_fault
+  data:
+    show_version_cmd: show version
+
+netdevops02:
+  hostname: 192.168.137.202
+  groups:
+    - ios_fault
+    - ios
+
+  data:
+    show_version_cmd: show version

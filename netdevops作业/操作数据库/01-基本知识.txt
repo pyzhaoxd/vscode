@@ -1,0 +1,10 @@
+dsn         数据库名称
+user        用户名
+password    密码
+host        主机名
+databases   数据库名称
+close()     关闭连接对象
+commit()    提交事务
+rollback()  回滚提交的事务
+cursor()    返回连接的游标对象
+

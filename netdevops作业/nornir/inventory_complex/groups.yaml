@@ -1,0 +1,42 @@
+---
+ios:
+  platform: ios
+  username: netdevops
+  password: admin123!
+  port: 22
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: admin1234!
+    netmiko:
+      extras:
+         device_type: cisco_ios
+         secret: admin1234!
+  data:
+    cmds_in_group:
+      - show version
+      - show interface
+
+ios_fault:
+  platform: ios
+  username: netdevops
+#  password: admin121113!
+  port: 22
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: admin1234!
+  data:
+    cmds_in_group:
+      - show version
+      - show interface
+
+nxos:
+  platform: cisco_nxos
+  username: netdevops
+  data:
+    cmds_in_group:
+      - show version
+      - show interface

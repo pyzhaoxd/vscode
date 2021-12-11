@@ -1,0 +1,16 @@
+N7K# show vlan
+
+VLAN    NAME                           Status                     Ports
+----------------------------------------------------------------------------------------
+1       default                        active                     Eth1/1,Eth1/2,Eth1/3
+                                                                  Eth1/4
+
+2       VLAN002                        active                     Po100,Eth1/49,Eth1/50
+3       VLAN003                        active                     Po100,Eth1/49,Eth1/50
+4       VLAN004                        active                     Po100,Eth1/49,Eth1/50
+5       VLAN005                        active                     Po100,Eth1/49,Eth1/50
+6       VLAN006                        active                     Po100,Eth1/49,Eth1/50
+7       VLAN007                        active                     Po100,Eth1/49,Eth1/50
+8       VLAN008                        active                     Po100,Eth1/49,Eth1/50
+9       VLAN009                        active                     Po100,Eth1/49,Eth1/50
+10      VLAN0010                       active                     Po100,Eth1/49,Eth1/50

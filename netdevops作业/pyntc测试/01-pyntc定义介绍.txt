@@ -1,0 +1,20 @@
+pyntc也是一个非常优秀的用来管理网络设备配置，升级设备OS，重启网络设备的第三方开源模块
+
+pyntc与NAPALM比较
+
+和NAPALM相同，pyntc既依赖netmiko,保证运行的主机已经按照netmiko
+
+和NAPALM 不同的是提供不统一的API， pyntc是一种多厂商，多API的模块 目前支持 cisco Arista Juniper 3家主流厂商的4中操作系统
+
+Cisco iOS platforms-user SSH （Netmiko）
+Cisco NX-OS -user PYNXOS(NX-API)
+Arista EOS -user pyeapi(eAPI)
+juniper junos -user PyEz(NETCONF)
+
+
+
+pyntc安装
+pip3 install pyntc
+方法二： git clone https://github.com/networktocode/pyntc.git
+cd pyntc
+python setup.py install

@@ -1,0 +1,9 @@
+---
+ios:
+  username: netdevops
+  password: admin123!
+  port: 22
+  data:
+    cmds_in_group:
+      - show version
+      - show interface

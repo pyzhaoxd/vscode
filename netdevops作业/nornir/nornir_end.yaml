@@ -1,0 +1,16 @@
+---
+inventory:
+      plugin: SimpleInventory
+      options:
+          host_file: "inventory_end/hosts.yaml"
+          group_file: "inventory_end/groups.yaml"
+          defaults_file: "inventory_end/defaults.yaml"
+
+runner:
+    plugin: threaded
+    options:
+        num_workers: 100
+
+logging:
+    enabled: true
+    log_file: nornir_test.log

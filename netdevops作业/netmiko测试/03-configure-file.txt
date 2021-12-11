@@ -1,0 +1,8 @@
+interface fastEthernet 0/0
+    description configed by netmiko
+
+interface fastEthernet 0/1
+    description configed by netmik
+
+interface fastEthernet 0/2
+    description configed by netmik

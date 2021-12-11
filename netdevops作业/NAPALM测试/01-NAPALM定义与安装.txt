@@ -1,0 +1,39 @@
+https://github.com/napalm-automation
+
+支持 
+cisco iso 
+cisco ios-xr 
+cisco nx-os
+Arista EOS 
+juniper junOS
+
+
+NAPALM的优点：
+
+NAPALM简单易用，它依赖netmikoi，但是不需要导入netmiko便可以独立使用（只要保证运行脚本的主机安装了netmiko即可），因为在脚本里节省了很多代码，让整个脚本更加简洁易懂。
+
+我们知道textfsm可以配合ntc-tempalte，将网络设备的输入各种命令得到的输出整合成有序的数据结构（列表类型）方便使用for和if对文件做进一步的解析
+
+NAPALM提供的各种API也可以帮助我们在网络设备上得到我们感兴趣的设备信息和参数内容，并且NAPALM返回数据类型也是列表
+
+NAPALM API 分为Gettr和Configuration类
+
+Gettr :设备信息获取
+Configuration： 配置替换，合并，比对，原子更换，回滚等操作功能比TextFSM和ntc-tempalte更强大
+
+
+NAPALM缺点：
+
+支持的厂商少
+
+NAPALM 返回的数据是统一的，固定的，很难满足个性化需求使用者
+
+
+如果我们对回显内容解析有个性化的需求，建议使用TextFSM来编写自己的模板
+
+
+#安装NAPALM:
+首先确认是否已经按照Netmiko  pip freeze | grep Netmiko
+pip3 install napalm
+
+

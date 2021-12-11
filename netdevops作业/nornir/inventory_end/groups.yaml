@@ -1,0 +1,65 @@
+---
+netdevops:
+  data:
+    cmds:
+      - display version
+      - display interface
+ios:
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          secret: admin1234!
+    netmiko:
+      extras:
+         conn_timeout: 60
+         timeout: 180
+         device_type: cisco_ios
+         secret: admin1234!
+  data:
+    cmds_in_group:
+      - show version
+      - show interface
+
+nxos:
+  data:
+    cmds_in_group:
+      - show version
+      - show interface
+
+demo_for_tree:
+  hostname: 192.168.56.202
+  username: netdevops
+  password: Admin123!
+  port: 22
+  platform: ios
+  data:
+    cmds:
+      - 1
+      - 2
+      - 3
+  groups:
+    - ios
+    - nxos
+
+test_group:
+    hostname: 192.168.56.202
+    username: netdevops
+    password: Admin123!
+    port: 22
+    platform: ios
+
+leaf:
+  data:
+    role: leaf
+    chongtu_k: 1
+
+bj:
+  data:
+    city: beijing
+    chongtu_k: 2
+
+bj_leaf:
+  groups:
+    - leaf
+    - bj

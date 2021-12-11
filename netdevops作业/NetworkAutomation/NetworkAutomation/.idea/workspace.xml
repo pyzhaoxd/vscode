@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="569a9610-3503-4ab1-aeda-6986a42b98d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../01-python基础入门/xiaohong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-python基础入门/xiaoming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-python基础入门/作业demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02-文本文件、表格文件操作/作业demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/作业demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/作业demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04-正则表达式/作业demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05-jinja2模板引擎/zuoye.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05-jinja2模板引擎/作业demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06-网络配置解析利器textfsm/作业.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-ip相关操作/06-demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-ip相关操作/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09-netconf与yang/07-cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/0-generate_cisshgo_devices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/01-inventory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/02-01-filter_inventory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/02-02-filter_advance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/02-task/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/03-01-task_say_hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/03-02-task_say_hello_with_more_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/03-03-grouping_task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/04-01-result_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/04-groups-tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/cisshgo.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/inventory/cisshgo.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/inventory/hosts_complex.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10-nornir/my_custom_inventory.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/templates/device/device_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../待分类整理/01-syslog收发.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../待分类整理/02-syslog收.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-python基础入门/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-python基础入门/tmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-文本文件、表格文件操作/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../02-文本文件、表格文件操作/tmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/02-登陆设备show信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/02-登陆设备show信息.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/03-配置网络设备.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/03-配置网络设备.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/04-自动判断设备类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/04-自动判断设备类型.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/dev_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/dev_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-基于Netmiko与CLI的网络设备交互/tmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-jinja2模板引擎/interfaces.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-jinja2模板引擎/interfaces.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-jinja2模板引擎/多端口的配置.j2" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-jinja2模板引擎/多端口的配置.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-网络配置解析利器textfsm/case0.textfsm" beforeDir="false" afterPath="$PROJECT_DIR$/../../06-网络配置解析利器textfsm/case0.textfsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-网络配置解析利器textfsm/case04C.textfsm" beforeDir="false" afterPath="$PROJECT_DIR$/../../06-网络配置解析利器textfsm/case04C.textfsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-网络配置解析利器textfsm/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06-网络配置解析利器textfsm/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07-RESTful API及requests/RestDemo/RestDemo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../07-RESTful API及requests/RestDemo/RestDemo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07-RESTful API及requests/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../07-RESTful API及requests/tmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../08-ip相关操作/05-ping小工具.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-ip相关操作/05-ping小工具.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/01_get_capabilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../09-netconf与yang/01_get_capabilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/02_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../09-netconf与yang/02_get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/06_补充获取schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../09-netconf与yang/06_补充获取schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/device.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../09-netconf与yang/device.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/acl/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/acl/openconfig-acl.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/acl/openconfig-packet-match-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/acl/openconfig-packet-match.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/openconfig-aft-common.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/openconfig-aft-ethernet.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/openconfig-aft-ipv4.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/openconfig-aft-ipv6.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/openconfig-aft-mpls.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/openconfig-aft-network-instance.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/openconfig-aft-pf.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/openconfig-aft-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/aft/openconfig-aft.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bfd/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bfd/openconfig-bfd.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp-common-multiprotocol.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp-common-structure.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp-common.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp-errors.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp-global.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp-neighbor.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp-peer-group.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp-policy.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/bgp/openconfig-bgp.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/catalog/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/catalog/openconfig-catalog-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/catalog/openconfig-module-catalog.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-if-8021x.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-if-aggregate.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-if-ethernet-ext.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-if-ethernet.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-if-ip-ext.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-if-ip.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-if-poe.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-if-tunnel.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-if-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/interfaces/openconfig-interfaces.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/isis/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/isis/openconfig-isis-lsdb-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/isis/openconfig-isis-lsp.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/isis/openconfig-isis-policy.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/isis/openconfig-isis-routing.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/isis/openconfig-isis-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/isis/openconfig-isis.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/lacp/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/lacp/openconfig-lacp.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/lldp/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/lldp/openconfig-lldp-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/lldp/openconfig-lldp.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/local-routing/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/local-routing/openconfig-local-routing.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/macsec/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/macsec/openconfig-macsec-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/macsec/openconfig-macsec.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/mpls/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/mpls/openconfig-mpls-igp.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/mpls/openconfig-mpls-ldp.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/mpls/openconfig-mpls-rsvp.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/mpls/openconfig-mpls-sr.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/mpls/openconfig-mpls-static.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/mpls/openconfig-mpls-te.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/mpls/openconfig-mpls-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/mpls/openconfig-mpls.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/multicast/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/multicast/openconfig-igmp-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/multicast/openconfig-igmp.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/multicast/openconfig-pim-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/multicast/openconfig-pim.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/network-instance/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/network-instance/openconfig-network-instance-l2.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/network-instance/openconfig-network-instance-l3.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/network-instance/openconfig-network-instance-policy.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/network-instance/openconfig-network-instance-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/network-instance/openconfig-network-instance.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/openconfig-extensions.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/openflow/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/openflow/openconfig-openflow-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/openflow/openconfig-openflow.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/openconfig-channel-monitor.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/openconfig-optical-amplifier.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/openconfig-optical-attenuator.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/openconfig-terminal-device.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/openconfig-transport-line-common.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/openconfig-transport-line-connectivity.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/openconfig-transport-line-protection.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/openconfig-transport-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/optical-transport/openconfig-wavelength-router.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/ospf/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/ospf/openconfig-ospf-policy.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/ospf/openconfig-ospf-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/ospf/openconfig-ospfv2-area-interface.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/ospf/openconfig-ospfv2-area.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/ospf/openconfig-ospfv2-common.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/ospf/openconfig-ospfv2-global.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/ospf/openconfig-ospfv2-lsdb.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/ospf/openconfig-ospfv2.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/openconfig-platform-cpu.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/openconfig-platform-ext.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/openconfig-platform-fan.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/openconfig-platform-linecard.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/openconfig-platform-port.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/openconfig-platform-psu.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/openconfig-platform-transceiver.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/openconfig-platform-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/platform/openconfig-platform.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/policy-forwarding/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/policy-forwarding/openconfig-pf-forwarding-policies.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/policy-forwarding/openconfig-pf-interfaces.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/policy-forwarding/openconfig-pf-path-groups.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/policy-forwarding/openconfig-pf-srte.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/policy-forwarding/openconfig-policy-forwarding.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/policy/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/policy/openconfig-policy-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/policy/openconfig-routing-policy.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/probes/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/probes/openconfig-probes-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/probes/openconfig-probes.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/qos/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/qos/openconfig-qos-elements.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/qos/openconfig-qos-interfaces.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/qos/openconfig-qos-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/qos/openconfig-qos.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/relay-agent/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/relay-agent/openconfig-relay-agent.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/rib/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/rib/openconfig-rib-bgp-attributes.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/rib/openconfig-rib-bgp-ext.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/rib/openconfig-rib-bgp-shared-attributes.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/rib/openconfig-rib-bgp-table-attributes.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/rib/openconfig-rib-bgp-tables.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/rib/openconfig-rib-bgp-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/rib/openconfig-rib-bgp.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/sampling/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/sampling/openconfig-sampling-sflow.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/segment-routing/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/segment-routing/openconfig-rsvp-sr-ext.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/segment-routing/openconfig-segment-routing-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/segment-routing/openconfig-segment-routing.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/segment-routing/openconfig-srte-policy.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/stp/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/stp/openconfig-spanning-tree-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/stp/openconfig-spanning-tree.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-aaa-radius.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-aaa-tacacs.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-aaa-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-aaa.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-alarm-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-alarms.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-license.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-messages.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-procmon.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-system-logging.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-system-management.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-system-terminal.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/system/openconfig-system.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/telemetry/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/telemetry/openconfig-telemetry-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/telemetry/openconfig-telemetry.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/types/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/types/openconfig-inet-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/types/openconfig-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/types/openconfig-yang-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/vlan/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/vlan/openconfig-vlan-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/vlan/openconfig-vlan.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/wifi/.spec.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/wifi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/wifi/openconfig-access-points.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/wifi/openconfig-ap-interfaces.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/wifi/openconfig-ap-manager.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/wifi/openconfig-wifi-mac.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/wifi/openconfig-wifi-phy.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/models/wifi/openconfig-wifi-types.yang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09-netconf与yang/pyang" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ovZnWhCSGPo4nd9MprALdkxn5R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../netdevops/NetworkAutomation" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="NetworkAutomation" type="Python.DjangoServer" factoryName="Django server">
+      <module name="NetworkAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="NetworkAutomation.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\feifeiflight\OneDrive\文档\NetDevOps\NetDevOpsTeach\codes\12-django\venv\NetworkAutomation\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="569a9610-3503-4ab1-aeda-6986a42b98d4" name="Default Changelist" comment="" />
+      <created>1614169191430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614169191430</updated>
+      <workItem from="1614169194945" duration="1455000" />
+      <workItem from="1614215460538" duration="1517000" />
+      <workItem from="1614342165962" duration="2865000" />
+      <workItem from="1614350500097" duration="826000" />
+      <workItem from="1614496116060" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="382" y="0" key="#NetworkAutomation" timestamp="1614169886585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="382" y="0" key="#NetworkAutomation/0.0.1536.824@0.0.1536.824" timestamp="1614169886585" />
+    <state x="219" y="57" width="1159" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614170052082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="219" y="57" width="1159" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1614170052082" />
+    <state x="619" y="151" key="FileChooserDialogImpl" timestamp="1614496142520">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="495" y="107" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614169532386" />
+    <state x="619" y="151" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1614496142520" />
+    <state width="1867" height="378" key="GridCell.Tab.0.bottom" timestamp="1614344396568">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1483" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614216991630" />
+    <state width="1867" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1614344396568" />
+    <state width="1867" height="378" key="GridCell.Tab.0.center" timestamp="1614344396567">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1483" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614216991630" />
+    <state width="1867" height="378" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1614344396567" />
+    <state width="1867" height="378" key="GridCell.Tab.0.left" timestamp="1614344396567">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1483" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614216991629" />
+    <state width="1867" height="378" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1614344396567" />
+    <state width="1867" height="378" key="GridCell.Tab.0.right" timestamp="1614344396568">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1483" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614216991630" />
+    <state width="1867" height="378" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1614344396568" />
+    <state width="1867" height="378" key="GridCell.Tab.1.bottom" timestamp="1614344396568">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1867" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1614344396568" />
+    <state width="1867" height="378" key="GridCell.Tab.1.center" timestamp="1614344396568">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1867" height="378" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1614344396568" />
+    <state width="1867" height="378" key="GridCell.Tab.1.left" timestamp="1614344396568">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1867" height="378" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1614344396568" />
+    <state width="1867" height="378" key="GridCell.Tab.1.right" timestamp="1614344396568">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1867" height="378" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1614344396568" />
+    <state x="138" y="0" key="SettingsEditor" timestamp="1614169795966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="138" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614169795966" />
+  </component>
+</project>
