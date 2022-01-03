@@ -1,0 +1,19 @@
+1.安装git
+2.设置用户和密码  
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+3.生成KEY
+ssh-keygen -t rsa -C "myname@mymail.com"
+
+4.创建github 项目并在Settings里面输入公钥
+==git@github.com:pyzhaoxd/vscode_go.git
+===============git@github.com:pyzhaoxd/vscode.git=====从github项目里面复制即可
+5.通过git 上传文件到github---在vscode 终端中执行后会自动创建orgin分支
+git init
+git add .
+git commit -m "init my netdevop project"
+git remote add origin git@github.com:pyzhaoxd/vscode.git
+git push -u origin master
+
+6. vscode 源代码管理器中-推送至-选择orgin仓库即可~
