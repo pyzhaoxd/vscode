@@ -1,0 +1,2445 @@
+{
+    "device-group": [
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-03-02 06:44:47",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Yonghui-test930-a"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-03-02 06:44:47",
+            "name": "930-test-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5046",
+            "poststaging-template": "Yonghui-test930",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-02 22:40:53",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "AF-HUB-A-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-02 22:40:53",
+            "name": "AF-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "AF-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-02 22:43:09",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "AF-HUB-B-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-02 22:43:09",
+            "name": "AF-HUB-B-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "AF-HUB-B-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-02 15:06:02",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "AWS-CAE-BJ"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-02 15:06:02",
+            "name": "AWS-CAE-BJ-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5010",
+            "poststaging-template": "AWS-CAE-BJ-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-02 15:06:57",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "AWS-CAE-BL"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-02 15:06:57",
+            "name": "AWS-CAE-BL-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5010",
+            "poststaging-template": "AWS-CAE-BL-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-02 22:44:44",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "AWS-POP-AF-PE"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-02 22:44:44",
+            "name": "AWS-POP-AF-PE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5001",
+            "poststaging-template": "AWS-POP-AF-PE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-01 23:17:29",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "AWS-POP-BL-PE"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-01 23:17:29",
+            "name": "AWS-POP-BL-PE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5001",
+            "poststaging-template": "AWS-POP-BL-PE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-01 23:21:19",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "AWS-POP-GZ-PE"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-01 23:21:19",
+            "name": "AWS-POP-GZ-PE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5001",
+            "poststaging-template": "AWS-POP-GZ-PE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-01 23:14:22",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "AWS-POP-HK-PE"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-01 23:14:22",
+            "name": "AWS-POP-HK-PE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5001",
+            "poststaging-template": "AWS-POP-HK-PE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-04-22 11:09:28",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "BJ-HUB-A-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-04-22 11:09:28",
+            "name": "BJ-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "BJ-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-04-22 11:19:04",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "BJ-HUB-B-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-04-22 11:19:04",
+            "name": "BJ-HUB-B-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "BJ-HUB-B-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-01 22:21:06",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "BL-HUB-A-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-01 22:21:06",
+            "name": "BL-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "BL-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-02 16:34:10",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "BL-HUB-B-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-02 16:34:10",
+            "name": "BL-HUB-B-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "BL-HUB-B-1-Template",
+            "poststagingTemplatePriority": 3
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-25 12:10:04",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-BJ-CAE-01"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-05-25 12:10:04",
+            "name": "C2K-BJ-CAE-01-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5008",
+            "poststaging-template": "C2K-BJ-CAE-01-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-25 12:11:51",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-BJ-CAE-02"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-05-25 12:11:51",
+            "name": "C2K-BJ-CAE-02-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5008",
+            "poststaging-template": "C2K-BJ-CAE-02-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-16 06:02:38",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-CMA-BJ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-08-16 06:02:38",
+            "name": "C2K-CMA-BJ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5027",
+            "poststaging-template": "C2K-CMA-BJ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-16 06:05:59",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-CMA-HLJ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-08-16 06:05:59",
+            "name": "C2K-CMA-HLJ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5027",
+            "poststaging-template": "C2K-CMA-HLJ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-20 15:16:57",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-MDQ-BJ-CPE"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-05-20 15:16:57",
+            "name": "C2K-MDQ-BJ-CPE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5005",
+            "poststaging-template": "C2K-MDQ-BJ-CPE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-31 03:29:56",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-XHL-BeiJing-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-08-31 03:29:56",
+            "name": "C2K-XHL-BeiJing-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5024",
+            "poststaging-template": "C2K-XHL-BeiJing-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-21 06:44:39",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-XHL-ChangChun-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-07-21 06:44:39",
+            "name": "C2K-XHL-ChangChun-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5024",
+            "poststaging-template": "C2K-XHL-ChangChun-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-21 06:45:42",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-XHL-ChangSha-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-07-21 06:45:42",
+            "name": "C2K-XHL-ChangSha-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5024",
+            "poststaging-template": "C2K-XHL-ChangSha-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-21 06:40:25",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-XHL-XiNing-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-07-21 06:40:25",
+            "name": "C2K-XHL-XiNing-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5024",
+            "poststaging-template": "C2K-XHL-XiNing-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 15:25:06",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "C2K-ZKCD-TJ-CPE"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-06-07 15:25:06",
+            "name": "C2K--ZKCD-TJ-CPE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5016",
+            "poststaging-template": "CK2-ZKCD-TJ-CPE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-02-09 02:30:27",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Yonghui-CC-110-CAE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-02-09 02:30:27",
+            "name": "CC-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5041",
+            "poststaging-template": "Yonghui-CC-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-02-16 03:39:27",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-BWAVE-CPE"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2022-02-16 03:39:27",
+            "name": "CTG-BWAVE-CPE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5043",
+            "poststaging-template": "CTG-BWAVE-CPE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 12:27:57",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-DeltaSport-FF-CPE-01"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-06-07 12:27:57",
+            "name": "CTG-DeltaSport-FF-CPE-01-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5015",
+            "poststaging-template": "CTG-DeltaSport-FF-CPE-01-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 12:33:06",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-DeltaSport-SH-CPE-01"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-06-07 12:33:06",
+            "name": "CTG-DeltaSport-SH-CPE-01-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5015",
+            "poststaging-template": "CTG-DeltaSport-SH-CPE-01-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-10 22:25:24",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-Gurit-BJ-vCAE-01"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-10 22:25:24",
+            "name": "CTG-Gurit-BJ-vCAE-01-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-Gurit-BJ-vCAE-01-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 22:06:18",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-DF-CPE-Active"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-07 22:06:18",
+            "name": "CTG-GURIT-DF-CPE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-DF-CPE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 22:10:25",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-DF-CPE-Standby"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-07 22:10:25",
+            "name": "CTG-GURIT-DF-CPE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-DF-CPE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-10 22:31:25",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-Gurit-HK-vCAE-01"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-10 22:31:25",
+            "name": "CTG-Gurit-HK-vCAE-01-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-Gurit-HK-vCAE-01-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-08 21:04:32",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-LF-CPE-Active"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-08 21:04:32",
+            "name": "CTG-GURIT-LF-CPE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-LF-CPE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-08 21:27:51",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-LF-CPE-Standby"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-08 21:27:51",
+            "name": "CTG-GURIT-LF-CPE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-LF-CPE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-09 23:44:56",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-MONTREAL-CPE-Active"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-09 23:44:56",
+            "name": "CTG-GURIT-MONTREAL-CPE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-MONTREAL-CPE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-09 23:48:09",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-MONTREAL-CPE-Standby"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-09 23:48:09",
+            "name": "CTG-GURIT-MONTREAL-CPE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-MONTREAL-CPE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-09 23:37:28",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-NEWPORT-CPE-Active"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-09 23:37:28",
+            "name": "CTG-GURIT-NEWPORT-CPE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-NEWPORT-CPE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-09 23:41:03",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-NEWPORT-CPE-Standby"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-09 23:41:03",
+            "name": "CTG-GURIT-NEWPORT-CPE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-NEWPORT-CPE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-09 00:16:02",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-TC-CPE-Active"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-12 07:35:15",
+            "name": "CTG-GURIT-TC-CPE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-TC-CPE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-09 00:21:44",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-TC-CPE-Standby"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-09 00:21:44",
+            "name": "CTG-GURIT-TC-CPE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-TC-CPE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-08 23:48:03",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-TJ-CPE-Active"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-08 23:48:03",
+            "name": "CTG-GURIT-TJ-CPE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-TJ-CPE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-08 23:51:36",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-TJ-CPE-Standby"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-08 23:51:36",
+            "name": "CTG-GURIT-TJ-CPE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-TJ-CPE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 22:25:06",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-ZhuoZhou-CPE-Active"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-07 22:25:06",
+            "name": "CTG-GURIT-ZhuoZhou-CPE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-ZhuoZhou-CPE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 22:28:52",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-GURIT-ZhuoZhou-CPE-Standby"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2021-06-07 22:28:52",
+            "name": "CTG-GURIT-ZhuoZhou-CPE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "CTG-GURIT-ZhuoZhou-CPE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-09 02:45:59",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-HWL-CAE-HK"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-10-09 02:45:59",
+            "name": "CTG-HWL-CAE-HK-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5028",
+            "poststaging-template": "CTG-HWL-CAE-HK-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-09 02:47:39",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-HWL-CAE-SHA"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-10-09 02:47:39",
+            "name": "CTG-HWL-CAE-SH-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5028",
+            "poststaging-template": "CTG-HWL-CAE-SH-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-24 20:12:21",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-IKEA-SH-CAE-Active"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-24 20:12:21",
+            "name": "CTG-IKEA-SH-CAE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5013",
+            "poststaging-template": "CTG-IKEA-SH-CAE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-24 20:16:54",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-IKEA-SH-CAE-Standby"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-24 20:16:54",
+            "name": "CTG-IKEA-SH-CAE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5013",
+            "poststaging-template": "CTG-IKEA-SH-CAE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 12:31:16",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-LLX-GZ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-07 12:31:16",
+            "name": "CTG-LLX-GZ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5011",
+            "poststaging-template": "CTG-LLX-GZ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 13:13:45",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-PRECITEC-FF-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-07 13:13:45",
+            "name": "CTG-PRECITEC-FF-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5012",
+            "poststaging-template": "CTG-PRECITEC-FF-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 13:12:37",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-PRECITEC-SH-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-07 13:12:37",
+            "name": "CTG-PRECITEC-SH-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5012",
+            "poststaging-template": "CTG-PRECITEC-SH-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 14:57:44",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-ZL-BJ-CPE"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-06-07 14:57:44",
+            "name": "CTG-ZL-BJ-CPE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5017",
+            "poststaging-template": "CTG-ZL-BJ-CPE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 14:59:08",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-ZL-BJ-YH-CPE"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-06-07 14:59:08",
+            "name": "CTG-ZL-BJ-YH-CPE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5017",
+            "poststaging-template": "CTG-ZL-BJ-YH-CPE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-06 20:41:10",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-ZSY-BJ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-07-06 20:41:10",
+            "name": "CTG-ZSY-BJ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5023",
+            "poststaging-template": "CTG-ZSY-BJ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-06 20:39:31",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-ZSY-Dubai-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-07-06 20:39:31",
+            "name": "CTG-ZSY-Dubai-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5023",
+            "poststaging-template": "CTG-ZSY-Dubai-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-05 03:43:16",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "DBYL-SZ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-08-05 03:43:16",
+            "name": "DBYL-SZ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5026",
+            "poststaging-template": "DBYL-SZ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-05 03:37:38",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "DBYL-XM-CAE"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-08-05 03:37:38",
+            "name": "DBYL-XM-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5026",
+            "poststaging-template": "DBYL-XM-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-20 07:04:39",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Delta-TEST-CPE1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-07-20 07:04:39",
+            "name": "Delta-TEST-CPE1-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5004",
+            "poststaging-template": "Delta-TEST-CPE1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-20 07:05:18",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Delta-TEST-CPE2"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-07-20 07:05:18",
+            "name": "Delta-TEST-CPE2-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5004",
+            "poststaging-template": "Delta-TEST-CPE2-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-13 10:10:44",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "DrMartens-SH-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2022-01-13 10:10:44",
+            "name": "DrMartens-SH-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5038",
+            "poststaging-template": "DrMartens-SH-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-06 07:07:07",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-DongRuan-SY-CPE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-01-06 07:07:07",
+            "name": "dr-sy-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5036",
+            "poststaging-template": "CTG-DongRuan-SY-CPE",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-16 06:35:52",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Dupont-SH-CAE"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-10-16 06:35:52",
+            "name": "Dupont-SH-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5029",
+            "poststaging-template": "Dupont-SH-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-06 04:06:40",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "ER-CAE-SH-Standby-v110"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-12-06 04:06:40",
+            "name": "ER-CAE-SH-Standby-v110-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5025",
+            "poststaging-template": "ER-CAE-SH-Standby-v110",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-30 18:57:19",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "FF-HUB-A-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-05-30 18:57:19",
+            "name": "FF-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "FF-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-30 18:59:31",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "FF-HUB-B-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-05-30 18:59:31",
+            "name": "FF-HUB-B-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "FF-HUB-B-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-04-22 11:44:30",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "GZ-HUB-A-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-04-22 11:44:30",
+            "name": "GZ-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "GZ-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-27 02:02:47",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "GZ-HUB-A-2"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-10-27 02:02:47",
+            "name": "GZ-HUB-A-2-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "GZ-HUB-A-2-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-04-22 11:48:08",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "GZ-HUB-B-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-04-22 11:48:08",
+            "name": "GZ-HUB-B-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "GZ-HUB-B-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-27 02:05:31",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "GZ-HUB-B-2"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-10-27 02:05:31",
+            "name": "GZ-HUB-B-2-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "GZ-HUB-B-2-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-04-28 14:19:48",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "HengXiang-SH-CAE"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-04-28 14:19:48",
+            "name": "HengXiang-SH-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5002",
+            "poststaging-template": "HengXiang-SH-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-27 07:49:09",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "HK-AWS-TEST-vCAE"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-10-27 07:49:09",
+            "name": "HK-AWS-TEST-vCAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5028",
+            "poststaging-template": "HK-AWS-TEST-vCAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-15 05:14:43",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "innovation-HK-CAE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2021-12-15 05:14:43",
+            "name": "inno-hk-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5035",
+            "poststaging-template": "innovation-HK-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-07 04:03:01",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "innovation-CAE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2021-12-07 04:03:01",
+            "name": "innovation-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5035",
+            "poststaging-template": "innovation-SZ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-10 03:48:04",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Innovation-GZ-CAE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2021-12-10 03:48:04",
+            "name": "innovation-gz-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5035",
+            "poststaging-template": "innovation-GZ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-15 10:58:53",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Juxi-BJ-CPE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-01-15 10:58:53",
+            "name": "Juxi-BJ-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5039",
+            "poststaging-template": "Juxi-BJ-CPE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-02-25 08:49:21",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "KM1-SH-CPE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-02-25 08:49:21",
+            "name": "km1-sh-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5045",
+            "poststaging-template": "KM1-SH-CPE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-02-25 07:40:11",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-02-25 07:40:11",
+            "name": "km-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5044",
+            "poststaging-template": "KM-SH-CPE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-27 21:17:21",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "KRSD-QD-CAE"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-06-27 21:17:21",
+            "name": "KRSD-QD-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5021",
+            "poststaging-template": "KRSD-QD-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-20 07:42:04",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Lennox-SHA-CAE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-01-20 07:42:04",
+            "name": "Lennox-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5040",
+            "poststaging-template": "Lennox-SH-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-03-02 07:46:31",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "lifeitest"
+            ],
+            "lastUpdatedBy": "lifei",
+            "modifyDate": "2022-03-02 07:46:31",
+            "name": "lifeitest",
+            "oneTimePassword": false,
+            "organization": "Customer5019",
+            "poststaging-template": "lifeitest",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-17 02:29:07",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-BJ-CAE-Active"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-12-17 02:29:07",
+            "name": "NSB-BJ-CAE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-BJ-CAE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-17 02:32:48",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-BJ-CAE-Standby"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-12-17 02:32:48",
+            "name": "NSB-BJ-CAE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-BJ-CAE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-09-13 08:04:23",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-CD-CAE-Active"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-09-13 08:04:23",
+            "name": "NSB-CD-CAE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-CD-CAE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-09-13 08:10:25",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-CD-CAE-Standby"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-09-13 08:10:25",
+            "name": "NSB-CD-CAE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-CD-CAE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 18:55:05",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-HK-CAE-02"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-07 18:55:05",
+            "name": "NSB-HK-CAE-02-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5018",
+            "poststaging-template": "NSB-HK-CAE-02-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-18 17:59:04",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-HK-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-08-18 17:59:04",
+            "name": "NSB-HK-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-HK-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-30 02:08:43",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-HZ-CAE-Active"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-07-30 02:08:43",
+            "name": "NSB-HZ-CAE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-HZ-CAE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-30 02:09:54",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-HZ-CAE-Standby"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-07-30 02:09:54",
+            "name": "NSB-HZ-CAE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-HZ-CAE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 18:58:28",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-JN-CAE-02"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-07 18:58:28",
+            "name": "NSB-JN-CAE-02-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5018",
+            "poststaging-template": "NSB-JN-CAE-02-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-18 18:00:28",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-JN-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-08-18 18:00:28",
+            "name": "NSB-JN-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-JN-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-23 17:23:55",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-NJ-CAE-Active"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-05-23 17:23:55",
+            "name": "NSB-NJ-CAE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-NJ-CAE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-29 19:06:14",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-NJ-CAE-Standby"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-05-29 19:06:14",
+            "name": "NSB-NJ-CAE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-NJ-CAE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-15 00:18:41",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-QD-CAE-Active"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-15 00:18:41",
+            "name": "NSB-QD-CAE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-QD-CAE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-15 00:25:12",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-QD-CAE-Standby"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-15 00:25:12",
+            "name": "NSB-QD-CAE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-QD-CAE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 18:40:47",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-SH-Active-02"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-07 18:40:47",
+            "name": "NSB-SH-Active-02-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5018",
+            "poststaging-template": "NSB-SH-Active-02-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-18 16:55:00",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-SH-CAE-Active"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-08-18 16:55:00",
+            "name": "NSB-SH-CAE-Active-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-SH-CAE-Active-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-18 16:57:01",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-SH-CAE-Standby"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-08-18 16:57:01",
+            "name": "NSB-SH-CAE-Standby-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-SH-CAE-Standby-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 19:01:20",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-SX-CAE-02"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-06-07 19:01:20",
+            "name": "NSB-SX-CAE-02-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5018",
+            "poststaging-template": "NSB-SX-CAE-02-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-18 18:02:42",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "NSB-SX-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-08-18 18:02:42",
+            "name": "NSB-SX-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5007",
+            "poststaging-template": "NSB-SX-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-07 11:45:01",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "PDRJ-SH-CPE-01"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-06-07 11:45:01",
+            "name": "PDRJ-SH-CPE-01-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5014",
+            "poststaging-template": "PDRJ-SH-CPE-01-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-13 02:18:25",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SaFuKai-SH-Factory01-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2022-01-13 02:18:25",
+            "name": "SaFuKai-SH-Factory01-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5037",
+            "poststaging-template": "SaFuKai-SH-Factory01-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-13 02:19:21",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SaFuKai-SH-Factory02-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2022-01-13 02:19:21",
+            "name": "SaFuKai-SH-Factory02-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5037",
+            "poststaging-template": "SaFuKai-SH-Factory02-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-13 02:20:39",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SaFuKai-SH-Office-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2022-01-13 02:20:39",
+            "name": "SaFuKai-SH-Office-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5037",
+            "poststaging-template": "SaFuKai-SH-Office-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-13 02:17:20",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SaFuKai-SH-WareHouse-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2022-01-13 02:17:20",
+            "name": "SaFuKai-SH-WareHouse-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5037",
+            "poststaging-template": "SaFuKai-SH-WareHouse-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-20 12:15:10",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SG-HUB-A-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-05-20 12:15:10",
+            "name": "SG-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "SG-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-20 12:23:39",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SG-HUB-B-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-05-20 12:23:39",
+            "name": "SG-HUB-B-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "SG-HUB-B-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-30 13:06:54",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "S-GZ-CPE-1"
+            ],
+            "lastUpdatedBy": "suming",
+            "modifyDate": "2021-08-30 13:06:54",
+            "name": "S-GZ-CPE-1-DG",
+            "oneTimePassword": false,
+            "organization": "org-test-sm-01",
+            "poststaging-template": "S-GZ-CPE-1",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-10 06:39:52",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "S-GZ-HUB-A-1"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-08-10 06:39:52",
+            "name": "S-GZ-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "S-GZ-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-04-22 11:21:32",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SH-HUB-A-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-04-22 11:21:32",
+            "name": "SH-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "SH-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-24 19:41:27",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SH-HUB-A-2"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-24 19:41:27",
+            "name": "SH-HUB-A-2-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "SH-HUB-A-2-Template",
+            "poststagingTemplatePriority": 3
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-04-22 11:30:47",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SH-HUB-B-1"
+            ],
+            "lastUpdatedBy": "Administrator",
+            "modifyDate": "2021-04-22 11:30:47",
+            "name": "SH-HUB-B-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "SH-HUB-B-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-24 20:03:22",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SH-HUB-B-2"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-06-24 20:03:22",
+            "name": "SH-HUB-B-2-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "SH-HUB-B-2-Template",
+            "poststagingTemplatePriority": 3
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-29 14:39:54",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [],
+            "lastUpdatedBy": "suming",
+            "modifyDate": "2021-10-29 14:39:54",
+            "name": "S-HK-AWS-1",
+            "oneTimePassword": false,
+            "organization": "org-test-sm-01",
+            "poststaging-template": "S-HK-AWS-1",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-29 14:39:38",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "S-HK-AWS-1"
+            ],
+            "lastUpdatedBy": "suming",
+            "modifyDate": "2021-10-29 14:39:38",
+            "name": "S-HK-AWS-1-DG",
+            "oneTimePassword": false,
+            "organization": "org-test-sm-01",
+            "poststaging-template": "S-HK-AWS-1",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-29 06:57:07",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "S-HK-HUB-ZC-1"
+            ],
+            "lastUpdatedBy": "suming",
+            "modifyDate": "2021-10-29 06:57:07",
+            "name": "S-HK-HUB-ZC-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "S-HK-HUB-ZC-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-29 15:19:53",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "S-SH-HOME-1"
+            ],
+            "lastUpdatedBy": "suming",
+            "modifyDate": "2021-10-29 15:19:53",
+            "name": "S-SH-HOME-1-DG",
+            "oneTimePassword": false,
+            "organization": "org-test-sm-01",
+            "poststaging-template": "S-SH-HOME-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-10 06:41:05",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "S-SH-HUB-A-1"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-08-10 06:41:05",
+            "name": "S-SH-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "S-SH-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-29 06:51:33",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "S-SH-HUB-ZC-1"
+            ],
+            "lastUpdatedBy": "suming",
+            "modifyDate": "2021-10-29 06:51:33",
+            "name": "S-SH-HUB-ZC-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "S-SH-HUB-ZC-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-27 16:57:53",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SV-HUB-A-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-05-27 16:57:53",
+            "name": "SV-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "SV-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-27 17:00:46",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "SV-HUB-B-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-05-27 17:00:46",
+            "name": "SV-HUB-B-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "SV-HUB-B-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-02-28 10:49:39",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Yonghui-test110-1"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-02-28 10:49:39",
+            "name": "test110-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5041",
+            "poststaging-template": "Yonghui-test110-1",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-03-01 02:00:22",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-03-01 02:00:22",
+            "name": "test930-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5046",
+            "poststaging-template": "Yonghui-test930",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-14 07:51:40",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "test-01"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-12-14 07:51:40",
+            "name": "test-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5022",
+            "poststaging-template": "yuanxiao-test-1-template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-14 07:53:26",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "test-02"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-12-14 07:53:26",
+            "name": "test-dg-02",
+            "oneTimePassword": false,
+            "organization": "Customer5022",
+            "poststaging-template": "yuanxiao-test-2-template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-22 13:11:13",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "test-gz-lyz-01"
+            ],
+            "lastUpdatedBy": "apiuser",
+            "modifyDate": "2021-12-22 13:11:13",
+            "name": "test-gz-lyz-01-DG",
+            "oneTimePassword": false,
+            "organization": "test-org-lyz-1",
+            "poststaging-template": "test-gz-lyz-01-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-10-26 14:10:19",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "CTG-CAE-SH-TEST"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2021-10-26 14:10:19",
+            "name": "TEST-SH-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5028",
+            "poststaging-template": "Copy_of_CTG-HWL-CAE-SH-Template_test",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-22 13:11:03",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "test-sh-lyz-01"
+            ],
+            "lastUpdatedBy": "apiuser",
+            "modifyDate": "2021-12-22 13:11:03",
+            "name": "test-sh-lyz-01-DG",
+            "oneTimePassword": false,
+            "organization": "test-org-lyz-1",
+            "poststaging-template": "test-sh-lyz-01-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-11-18 06:43:58",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Test-v210"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-11-18 06:43:58",
+            "name": "Test-v210-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5033",
+            "poststaging-template": "Test-v210-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-11-22 16:18:16",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Test-VCPE-2"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-11-22 16:18:16",
+            "name": "Test-VCPE-2-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5033",
+            "poststaging-template": "Test-VCPE-2-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-11-18 06:46:29",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Test-VCPE"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-11-18 06:46:29",
+            "name": "Test-VCPE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5033",
+            "poststaging-template": "Test-VCPE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-24 06:02:29",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "test-versa-gz-02"
+            ],
+            "lastUpdatedBy": "apiuser",
+            "modifyDate": "2021-12-24 06:02:29",
+            "name": "test-versa-gz-02-DG",
+            "oneTimePassword": false,
+            "organization": "test-org-lyz-1",
+            "poststaging-template": "test-versa-gz-02-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-24 06:02:19",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "test-versa-sh-02"
+            ],
+            "lastUpdatedBy": "apiuser",
+            "modifyDate": "2021-12-24 06:02:19",
+            "name": "test-versa-sh-02-DG",
+            "oneTimePassword": false,
+            "organization": "test-org-lyz-1",
+            "poststaging-template": "test-versa-sh-02-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-11-11 08:25:59",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "THGN-CZ-CAE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2021-11-11 08:25:59",
+            "name": "THGN-CZ-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5032",
+            "poststaging-template": "THGN-CZ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-11-11 08:16:58",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "THGN-SHA-CAE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2021-11-11 08:16:58",
+            "name": "THGN-SH-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5032",
+            "poststaging-template": "THGN-SH-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-06 11:44:52",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "TY-HUB-A-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2022-01-06 11:44:52",
+            "name": "TY-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "TY-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-06 11:51:03",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "TY-HUB-B-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2022-01-06 11:51:03",
+            "name": "TY-HUB-B-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "TY-HUB-B-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-02-21 11:18:52",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "wangkai-test02"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-02-21 11:18:52",
+            "name": "wangkai-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5025",
+            "poststaging-template": "wangkai-test02-template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-01-12 07:08:34",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "wangkai-test-lab"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-01-12 07:08:34",
+            "name": "wangkai-test",
+            "oneTimePassword": false,
+            "organization": "Customer5025",
+            "poststaging-template": "wangkai-test-template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-02-09 06:18:58",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Yonghui-YC-110-CAE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-02-09 06:18:58",
+            "name": "yc-gd",
+            "oneTimePassword": false,
+            "organization": "Customer5041",
+            "poststaging-template": "Yonghui-YC-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-03-01 09:38:22",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-03-01 09:38:22",
+            "name": "yonghui-810",
+            "oneTimePassword": false,
+            "organization": "Customer5046",
+            "poststaging-template": "Yonghui-test810-a",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-03-01 09:57:32",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Yonghui-810"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-03-01 09:57:32",
+            "name": "yonghui-810-1",
+            "oneTimePassword": false,
+            "organization": "Customer5046",
+            "poststaging-template": "Yonghui-test810-a",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-02-07 03:37:26",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Yonghui-FZ-810-CAE"
+            ],
+            "lastUpdatedBy": "wangkai",
+            "modifyDate": "2022-02-07 03:37:26",
+            "name": "yonghui-81-dg",
+            "oneTimePassword": false,
+            "organization": "Customer5041",
+            "poststaging-template": "Yonghui-FZ-810-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2022-02-08 03:01:52",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "YuYangKeJi-SZ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2022-02-08 03:01:52",
+            "name": "YuYangKeJi-SZ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5042",
+            "poststaging-template": "YuYangKeJi-SZ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-11-23 08:12:17",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "YX-BJ-Test-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-11-23 08:12:17",
+            "name": "YX-BJ-Test-CAE",
+            "oneTimePassword": false,
+            "organization": "Customer5034",
+            "poststaging-template": "YX-BJ-Test-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-20 08:12:13",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "ZC-FF-HUB-A-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-07-20 08:12:13",
+            "name": "ZC-FF-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "ZC-FF-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-19 11:20:35",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "ZC-SH-HUB-A-1"
+            ],
+            "lastUpdatedBy": "zhaolc",
+            "modifyDate": "2021-07-19 11:20:35",
+            "name": "ZC-SH-HUB-A-1-DG",
+            "oneTimePassword": false,
+            "organization": "unilake",
+            "poststaging-template": "ZC-SH-HUB-A-1-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-12-03 10:05:40",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "zhaoxd-lab-sha-cpe"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-12-03 10:05:40",
+            "name": "zhaoxd-lab-sha-cpe-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5025",
+            "poststaging-template": "zhaoxd-lab-sha-cpe",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-03 01:52:01",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "zhaoxd-lab-test1"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-08-03 01:52:01",
+            "name": "zhaoxd-lab-test1-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5025",
+            "poststaging-template": "zhaoxd-lab-test1",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-08-03 09:07:22",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "zhaoxd-lab-test2"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-08-03 09:07:22",
+            "name": "zhaoxd-lab-test2-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5025",
+            "poststaging-template": "zhaoxd-lab-test2",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-07-30 03:46:54",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "zhaoxd-lab-test"
+            ],
+            "lastUpdatedBy": "zhaoxd",
+            "modifyDate": "2021-07-30 03:46:54",
+            "name": "zhaoxd-lab-test-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5025",
+            "poststaging-template": "zhaoxd-lab-test",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-24 01:24:34",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Zhuoyue-BJ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-06-24 01:24:34",
+            "name": "Zhuoyue-BJ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5020",
+            "poststaging-template": "Zhuoyue-BJ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-06-24 01:34:03",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Zhuoyue-SZ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-06-24 01:34:03",
+            "name": "Zhuoyue-SZ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5020",
+            "poststaging-template": "Zhuoyue-SZ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-11-11 06:45:04",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "Zhuoyue-ZJ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxiao",
+            "modifyDate": "2021-11-11 06:45:04",
+            "name": "Zhuoyue-ZJ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5020",
+            "poststaging-template": "Zhuoyue-ZJ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        },
+        {
+            "ca-config-on-branch-notification": false,
+            "createDate": "2021-05-31 13:30:48",
+            "enable-2factor-auth": false,
+            "enable-staging-url": false,
+            "inventory-name": [
+                "ZSJ-FZ-CAE"
+            ],
+            "lastUpdatedBy": "yuanxin",
+            "modifyDate": "2021-05-31 13:30:48",
+            "name": "ZSJ-FZ-CAE-DG",
+            "oneTimePassword": false,
+            "organization": "Customer5009",
+            "poststaging-template": "ZSJ-FZ-CAE-Template",
+            "poststagingTemplatePriority": 2
+        }
+    ],
+    "totalCount": 153
+}
